@@ -81,6 +81,7 @@ function mostrarModal(personaje){
    const modal = new bootstrap.Modal(document.getElementById("modalDetalle"));
     modal.show();
 }
+
 document.addEventListener("DOMContentLoaded", obtenerPersonajes);
 inputBuscar.addEventListener("input", filtrarPersonajes);
 contenedor.addEventListener("click", (event) => {
