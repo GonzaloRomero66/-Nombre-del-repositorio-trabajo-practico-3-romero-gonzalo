@@ -53,3 +53,5 @@ function filtrarPersonajes () {
     );
     mostrarPersonajes(filtrados);
 }
+obtenerPersonajes()
+inputBuscar.addEventListener("input", filtrarPersonajes);
